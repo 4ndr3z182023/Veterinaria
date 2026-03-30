@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en" class="fullscreen-bg">
+
+<head>
+	<title>Inicio | PetCol</title>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+	<link rel="icon" type="image/png" sizes="96x96" href="/veterinaria/assets/imagenes/icono.png">
+	<link rel="stylesheet" href="/veterinaria/assets/vendor/bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" href="/veterinaria/assets/css/style.css">
+</head>
+
+<body>
+
+	<?php 
+    	include "vista/cabecera.php";
+	?>
+
+	<div class="seccion-general">
+		<div id="carouselPrincipal" class="carousel slide" data-ride="carousel">
+			<ol class="carousel-indicators">
+				<li data-target="#carouselPrincipal" data-slide-to="0" class="active"></li>
+				<li data-target="#carouselPrincipal" data-slide-to="1"></li>
+				<li data-target="#carouselPrincipal" data-slide-to="2"></li>
+			</ol>
+			<div class="carousel-inner">
+				<div class="carousel-item active">
+				<img class="d-block w-100" src="assets/imagenes/vete1.png" alt="First slide">
+				</div>
+				<div class="carousel-item">
+				<img class="d-block w-100" src="assets/imagenes/vete2.png" alt="Second slide">
+				</div>
+				<div class="carousel-item">
+				<img class="d-block w-100" src="assets/imagenes/vete3.png" alt="Third slide">
+				</div>
+			</div>
+			<a class="carousel-control-prev" href="#carouselPrincipal" role="button" data-slide="prev">
+				<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+				<span class="sr-only">Previous</span>
+			</a>
+			<a class="carousel-control-next" href="#carouselPrincipal" role="button" data-slide="next">
+				<span class="carousel-control-next-icon" aria-hidden="true"></span>
+				<span class="sr-only">Next</span>
+			</a>
+		</div>
+	</div>
+
+	<div class="seccion-servicios">
+		<div class="container pt-5 pb-5">
+			<div class="row">
+				<div class="col-12 text-center">
+					<h1>Nuestros Servicios</h1>
+				</div>
+				<div class="col-12 mt-3">
+					<div class="card-deck">
+						<div class="card">
+							<img class="card-img-top" src="assets/imagenes/serv1.png" alt="Card image cap">
+							<div class="card-body">
+							<h5 class="card-title">Centro de Belleza Animal</h5>
+							<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+							<a href="#" class="card-link">Ver mas</a>
+							</div>
+						</div>
+						<div class="card">
+							<img class="card-img-top" src="assets/imagenes/serv2.png" alt="Card image cap">
+							<div class="card-body">
+							<h5 class="card-title">Medicina Veterinaria General</h5>
+							<p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+							<a href="#" class="card-link">Ver mas</a>
+							</div>
+						</div>
+						<div class="card">
+							<img class="card-img-top" src="assets/imagenes/serv3.png" alt="Card image cap">
+							<div class="card-body">
+							<h5 class="card-title">Vacunación Veterinaria</h5>
+							<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+							<a href="#" class="card-link">Ver mas</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="seccion-link">
+		<div class="container pt-2 pb-2">
+			<div class="row">
+				<div class="col-12 text-center">
+					<a href="vista/agenda.php">AGENDA TU CITA AQUI</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="seccion-imagenes text-center">
+		<img src="assets/imagenes/contenido1.jpg" class="img-fluid imagen" alt="">
+	</div>
+	
+
+	<?php 
+    	include "vista/footer.php";
+	?>
+	
+	<script src="/veterinaria/assets/vendor/jquery/jquery.min.js"></script>
+	<script src="/veterinaria/assets/vendor/jquery/jquery-slim.min.js"></script>
+    <script src="/veterinaria/assets/vendor/popper/popper.min.js"></script>
+    <script src="/veterinaria/assets/vendor/bootstrap/js/bootstrap.min.js"></script>
+</body>
+
+</html>
